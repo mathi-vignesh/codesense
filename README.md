@@ -2,16 +2,20 @@
 RepoGuard is a powerful command-line tool that provides a rapid, three-layer analysis of any Git repository. It's designed for developers who need a deep, AI-driven understanding of a codebase's structure, potential vulnerabilities, and overall health without manual inspection.
 How It Works
 RepoGuard performs a comprehensive analysis in three distinct layers:
+
 Layer 1: 🗺️ Repository Summarization
 What it does: Uses Repomix to scan your entire repository—including the file structure and the content of key files.
 What it produces: A single, clean Markdown file (document1.md) that is perfectly formatted for review or for use with Large Language Models (LLMs).
+
 Layer 2: 🐍 Static Security Analysis
 What it does: Leverages Bandit, a best-in-class security linter, to perform a static analysis of your Python code.
 What it produces: Actionable JSON reports detailing common security vulnerabilities. It even redacts potential secrets it finds and logs them securely for your review.
+
 Layer 3: 🧠 AI-Powered Analysis
 What it does: Combines the outputs from Layer 1 and 2 and sends them to the Google Gemini LLM for an expert-level review.
 What it produces: A detailed, human-readable report (llm_analysis.md) containing insights on vulnerability hotspots, potential dynamic issues, and code workflow improvements.
-Getting Started
+
+**Getting Started**
 Follow these steps to get RepoGuard up and running in minutes.
 Prerequisites
 Python 3.9+
