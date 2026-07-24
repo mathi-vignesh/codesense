@@ -1,6 +1,8 @@
 🛡️ RepoGuard: AI-Powered Security & Structure Analyzer
 RepoGuard is a powerful command-line tool that provides a rapid, three-layer analysis of any Git repository. It's designed for developers who need a deep, AI-driven understanding of a codebase's structure, potential vulnerabilities, and overall health without manual inspection.
-How It Works
+
+**Workflow:**
+![image](https://tikolu.net/i/soxbj)
 RepoGuard performs a comprehensive analysis in three distinct layers:
 
 Layer 1: 🗺️ Repository Summarization
